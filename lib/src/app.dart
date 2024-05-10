@@ -3,13 +3,14 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:google_fonts/google_fonts.dart' show GoogleFonts;
 import 'package:provider/provider.dart' show ChangeNotifierProvider, MultiProvider;
 
-import 'Widget/home.dart' show HomeScreen;
+import 'Widget/responsiveLayout.dart' show ResponsiveLayout;
 
 import 'Model/homeModel.dart' show HomeModel;
 import 'Model/businessModel.dart' show BusinessModel;
 import 'Model/achievementsModel.dart' show AchievementsModel;
 import 'Model/profileModel.dart' show ProfileModel;
 import 'Model/contactModel.dart' show ContactModel;
+import 'Model/responsiveLayoutModel.dart' show ResponsiveLayoutModel;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -23,18 +24,18 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => AchievementsModel()),
         ChangeNotifierProvider(create: (context) => ProfileModel()),
         ChangeNotifierProvider(create: (context) => ContactModel()),
+        ChangeNotifierProvider(create: (context) => ResponsiveLayoutModel()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: '@matec',
         theme: ThemeData(
-            textTheme: kIsWeb ? GoogleFonts.robotoCondensedTextTheme(
+            textTheme: kIsWeb ? GoogleFonts.nunitoSansTextTheme(
             Theme.of(context).textTheme
           ) : null,
           primarySwatch: Colors.blue,
         ),
-
-        home: const HomeScreen(),
+        home: const ResponsiveLayout(),
       ),
     );
   }
