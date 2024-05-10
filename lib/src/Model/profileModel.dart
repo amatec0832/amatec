@@ -18,20 +18,24 @@ class ProfileModel extends ChangeNotifier {
 
   final List<Map<String, String>> _businessList = [
     {
-      'title': '会社名　 : ',
+      'title': '会社名　　 : ',
       'explanation': '@matec',
     },
     {
-      'title': '創立　　 : ',
-      'explanation': '2023年11月',
-    },
-    {
-      'title': '代表　　 : ',
+      'title': '代表　　　 : ',
       'explanation': '天野 良祐',
     },
     {
-      'title': '事業内容 : ',
-      'explanation': 'スマホアプリ・Webアプリの開発事業 \n オンラインサロン事業 \n 受託開発事業 \n 事業開発サポート',
+      'title': '顧問弁護士 : ',
+      'explanation': '名古屋第一法律事務所 山本 律宗',
+    },
+    {
+      'title': '所在地　　 : ',
+      'explanation': '〒450-0002 \n 愛知県名古屋市名駅5-4-14 花車ビル北館1階',
+    },
+    {
+      'title': '事業内容　 : ',
+      'explanation': 'スマホアプリ・Webアプリの開発事業 \n オンラインサロン事業 \n 事業開発サポート',
     },
   ];
 

@@ -17,7 +17,7 @@ class HomeModel extends ChangeNotifier {
   }
 
   final String _name = '@matec(アマテック)';
-  final String _iconImages = 'images/amatec.jpeg';
+  final String _iconImages = 'images/amatec.webp';
 
   HomeModel? get homeModel => _homeModel;
   String get name => _name;
