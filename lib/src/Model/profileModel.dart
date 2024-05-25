@@ -19,10 +19,10 @@ class ProfileModel extends ChangeNotifier {
   final List<Map<String, String>> _businessList = [
     {
       'title': '会社名　　 : ',
-      'explanation': '@matec',
+      'explanation': '株式会社アマテック',
     },
     {
-      'title': '代表　　　 : ',
+      'title': '代表取締役 : ',
       'explanation': '天野 良祐',
     },
     {
@@ -35,7 +35,7 @@ class ProfileModel extends ChangeNotifier {
     },
     {
       'title': '事業内容　 : ',
-      'explanation': 'スマホアプリ・Webアプリの開発事業 \n オンラインサロン事業 \n 事業開発サポート',
+      'explanation': 'ITソリューション事業 \n スマホアプリ・Webアプリの開発事業 \n ロボット事業',
     },
   ];
 

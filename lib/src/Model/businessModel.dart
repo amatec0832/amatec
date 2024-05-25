@@ -18,16 +18,16 @@ class BusinessModel extends ChangeNotifier {
 
   final List<Map<String, String>> _businessList = [
     {
+      'title': 'ITソリューション事業',
+      'explanation': 'システム開発 \n業務改善・DX・自動化 ',
+    },
+    {
       'title': 'アプリ開発事業',
-      'explanation': '持ち込みいただいた企画をもとに、設計から開発、テスト等のアプリ公開に\n必要な開発工程を一式でサポートいたします。',
+      'explanation': 'スマフォアプリ受託開発 \nスマフォアプリの企画・デザイン・開発・保守・運営',
     },
     {
-      'title': 'オンラインサロン事業',
-      'explanation': 'ホームページ制作・運営・動画編集・SNSの運用を一式サポートいたします。',
-    },
-    {
-      'title': '事業開発サポート',
-      'explanation': '課題解決における技術サポートや、アプリの作成、試作運用を行いアジャイルにてサポートします。',
+      'title': 'ロボット事業',
+      'explanation': '教育用プログラム\n工場ラインへのロボットの導入',
     },
   ];
 
