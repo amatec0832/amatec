@@ -38,7 +38,7 @@ jobs:
 
       # ビルド
       - name: Build Web
-        run: flutter build web --web-renderer html
+        run: flutter build web --release --web-renderer html
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
