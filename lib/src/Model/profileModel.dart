@@ -18,24 +18,36 @@ class ProfileModel extends ChangeNotifier {
 
   final List<Map<String, String>> _businessList = [
     {
-      'title': '会社名　　 : ',
-      'explanation': '株式会社アマテック',
+      'title': '会社名　　　 : ',
+      'explanation': ' 株式会社アマテック',
     },
     {
-      'title': '代表取締役 : ',
-      'explanation': '天野 良祐',
+      'title': '代表取締役　 : ',
+      'explanation': ' 天野 良祐',
     },
     {
-      'title': '顧問弁護士 : ',
-      'explanation': '名古屋第一法律事務所 山本 律宗',
+      'title': '顧問弁護士　 : ',
+      'explanation': ' 名古屋第一法律事務所 山本 律宗',
     },
     {
-      'title': '所在地　　 : ',
-      'explanation': '〒450-0002 \n 愛知県名古屋市名駅5-4-14 花車ビル北館1階',
+      'title': '顧問税理士　 : ',
+      'explanation': ' 加藤税理士事務所 加藤 雄一郎',
     },
     {
-      'title': '事業内容　 : ',
-      'explanation': 'ITソリューション事業 \n スマホアプリ・Webアプリの開発事業 \n ロボット事業',
+      'title': '所在地　　　 : ',
+      'explanation': ' 〒450-0002 \n 愛知県名古屋市名駅5-4-14 花車ビル北館1階',
+    },
+    {
+      'title': '事業内容　　 : ',
+      'explanation': ' ITソリューション事業 \n スマホアプリ・Webアプリの開発事業 \n ロボット事業',
+    },
+    {
+      'title': '取引銀行　　 : ',
+      'explanation': ' 三井住友銀行 \n GMOあおぞらネット銀行',
+    },
+    {
+      'title': 'お問い合わせ : ',
+      'explanation': ' MAIL:info@ama-tec.jp',
     },
   ];
 
